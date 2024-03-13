@@ -111,9 +111,10 @@ let userData = {
       </li>
         `;
     }).join("");
+    playlistSongs.innerHTML = songsHTML;
   };
 
-  playlistSongs.innerHTML = songsHTML;
+  
 
   renderSongs(userData?.songs);
   
