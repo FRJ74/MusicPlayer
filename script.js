@@ -112,4 +112,8 @@ let userData = {
         `;
     }).join("");
   };
+
+  playlistSongs.innerHTML = songsHTML;
+
+  renderSongs(userData?.songs);
   
